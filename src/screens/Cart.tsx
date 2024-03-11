@@ -31,8 +31,7 @@ const Cart: React.FC<CartProps> = props => {
     dispatch(removeProduct(productId));
   };
 
-  const handleCheckout = () => {
-  };
+  const handleCheckout = () => {};
 
   const getTotalAmount = () => {
     let total = 0;
@@ -76,7 +75,6 @@ const Cart: React.FC<CartProps> = props => {
           </View>
         </>
       )}
-      {/* Checkout Section */}
     </View>
   );
 };
