@@ -32,12 +32,9 @@ const Cart: React.FC<CartProps> = props => {
   };
 
   const handleCheckout = () => {
-    // Implement your checkout logic here
-    // For example, navigate to the checkout screen
   };
 
   const getTotalAmount = () => {
-    // Calculate total amount based on cartProducts
     let total = 0;
     for (const product of cartProducts) {
       total += product.price * product.quantity;
